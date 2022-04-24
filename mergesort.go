@@ -37,6 +37,6 @@ func merge_sort(a []int) []int {
 }
 
 func main() {
-	a := []int{5, 1, 2, 4, 3, 10, 8}
+	a := []int{7, 6, 5, 4, 3, 2, 1}
 	fmt.Println(merge_sort(a))
 }
