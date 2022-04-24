@@ -32,6 +32,7 @@ func fibonacci_iterative(a uint64) uint64 {
 
 func main() {
 	var a uint64
+	fmt.Print("Enter number: ")
 	fmt.Scanf("%d", &a)
 	start1 := time.Now()
 	fmt.Println(fibonacci_recursive(a))
