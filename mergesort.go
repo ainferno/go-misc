@@ -38,5 +38,6 @@ func merge_sort(a []int) []int {
 
 func main() {
 	a := []int{7, 6, 5, 4, 3, 2, 1}
-	fmt.Println(merge_sort(a))
+	fmt.Println("Raw:    ", a)
+	fmt.Println("Sorted: ", merge_sort(a))
 }

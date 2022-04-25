@@ -17,5 +17,6 @@ func bubble_sort(a []int) []int {
 
 func main() {
 	a := []int{1, 2, 7, 5, 6, 3, 4}
-	fmt.Println(bubble_sort(a))
+	fmt.Println("Raw:    ", a)
+	fmt.Println("Sorted: ", bubble_sort(a))
 }

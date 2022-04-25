@@ -34,6 +34,6 @@ func quicksort(a []int) []int {
 
 func main() {
 	a := []int{5, 4, 3, 2, 1, 6, 7, 10}
-	// b := []int{3, 4, 5}
-	fmt.Println(quicksort(a))
+	fmt.Println("Raw:    ", a)
+	fmt.Println("Sorted: ", quicksort(a))
 }
